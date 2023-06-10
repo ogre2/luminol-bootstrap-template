@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - App not loading in web once deployed to Github pages.
   - Fixed by setting the privacy field to false inside the `<package.json>` file.
+  - Added basename attribute to the BrowserRouter element in the app `<index.js>` file.
 - Switched Sass to devDependencies section.
 
 ## [0.1.1] - 2023/06/10
