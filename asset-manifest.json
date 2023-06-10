@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luminol-bootstrap-template/static/css/main.7c7659e7.css",
-    "main.js": "/luminol-bootstrap-template/static/js/main.161f6e4f.js",
+    "main.js": "/luminol-bootstrap-template/static/js/main.92633419.js",
     "static/js/787.0c0abf08.chunk.js": "/luminol-bootstrap-template/static/js/787.0c0abf08.chunk.js",
     "static/media/bootstrap-icons.woff?": "/luminol-bootstrap-template/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/luminol-bootstrap-template/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
@@ -18,11 +18,11 @@
     "static/media/webflow-primary.svg": "/luminol-bootstrap-template/static/media/webflow-primary.e09af2ccb7ecf903441a67c17549a960.svg",
     "index.html": "/luminol-bootstrap-template/index.html",
     "main.7c7659e7.css.map": "/luminol-bootstrap-template/static/css/main.7c7659e7.css.map",
-    "main.161f6e4f.js.map": "/luminol-bootstrap-template/static/js/main.161f6e4f.js.map",
+    "main.92633419.js.map": "/luminol-bootstrap-template/static/js/main.92633419.js.map",
     "787.0c0abf08.chunk.js.map": "/luminol-bootstrap-template/static/js/787.0c0abf08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c7659e7.css",
-    "static/js/main.161f6e4f.js"
+    "static/js/main.92633419.js"
   ]
 }
