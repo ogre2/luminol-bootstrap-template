@@ -1,0 +1,27 @@
+.swiper {.swiper-slide {
+    padding: 50px 0;
+}
+    .swiper-pagination {
+        .swiper-pagination-bullet {
+            position: relative;
+            &:not(:last-of-type) {
+                margin-right: 20px;
+            }
+            &.swiper-pagination-bullet-active {
+                border: 1px solid $primary;
+                &:after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    height: 18px;
+                    width: 18px;
+                    border-radius: 50%;
+                    border: 1px solid $secondary;
+                }
+            }
+        }
+    }
+}

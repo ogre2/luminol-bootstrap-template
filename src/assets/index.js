@@ -1,0 +1,14 @@
+export { default as Logo } from "./img/logo.svg";
+export { default as Slack } from "./img/slack-gray.svg";
+export { default as PayPal } from "./img/paypal-gray.svg";
+export { default as AirBnB } from "./img/airbnb-gray.svg";
+// export { default as MailChimp } from "./img/mailchimp-gray.svg";
+export { default as Webflow } from "./img/webflow-gray.svg";
+export { default as MailChimpPrimary } from "./img/mailchimp-primary.svg";
+export { default as WebflowPrimary } from "./img/webflow-primary.svg";
+// export { default as PayPalPrimary } from "./img/paypal-primary.svg";
+export { default as SlackPrimary } from "./img/slack-primary.svg";
+export { default as AirBnBPrimary } from "./img/airbnb-primary.svg";
+export { default as LaptopIllustration } from "./img/oc-on-the-laptop.svg";
+// export { default as BalanceIllustration } from "./img/oc-work-balance.svg";
+export { default as GrowIllustration } from "./img/oc-growing.svg";

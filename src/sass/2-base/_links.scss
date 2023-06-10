@@ -1,0 +1,20 @@
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    &.link-sm {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+    &.link-light {
+        color: #FFFFFF;
+        &:hover,
+        &:active {
+            color: #e0e0e0!important;
+            // color: #fafbfd;
+        }
+    }
+    &:hover {
+        color: $primary!important;
+    }
+}

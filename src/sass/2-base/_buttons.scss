@@ -1,0 +1,63 @@
+/*------------------------------------------------------------------
+[2.4. Buttons]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[#. Button Defaults]
+*/
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    appearance: button;
+    cursor: pointer;
+    &:hover,
+    &:focus,
+    &:visited,
+    &:active {
+        outline: none;
+        border: none;
+        box-shadow: none;
+        cursor: pointer;
+    }
+    &:-moz-focus-inner {
+        border-style: none;
+    }
+    &:-moz-focusring {
+        outline: none;
+    }
+}
+/*------------------------------------------------------------------
+[#. .btn]
+*/
+.btn {
+    border: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    display: block;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 5px;
+    cursor: pointer;
+    &.btn-padded {
+        padding: 14px 24px!important;
+    }
+    &.btn-lg {
+        padding: 12px 24px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.btn-primary {
+    background-color: $primary;
+}
+.btn-soft-light {
+    background-color: #EAEFF5;
+    &:hover {
+        color: $white;
+        background-color: #71869D;
+    }
+}

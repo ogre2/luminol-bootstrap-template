@@ -1,0 +1,40 @@
+.card {
+    &.card-sm {
+        border: none;
+        @include lightShadow;
+        .card-img {
+            height: 150px!important;
+            width: 100%;
+            object-fit: cover;
+        }
+        .card-body {
+            padding: 20px 20px;
+            .card-title {
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: 600;
+            }
+            .card-text {
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 16px;
+                color: $slate-gray;
+            }
+        }
+        .card-footer {
+            padding: 20px 20px;
+            background: transparent;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 600;
+            color: $slate-gray;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+.card-shadow {
+    @include cardShadow;
+}

@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------
+[3.1. Sizes]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[#. Max Width]
+*/
+$sizes: (12, 20, 22, 25, 28, 30, 42, 50);
+
+@each $size in $sizes {
+    .max-width-#{$size} {
+        max-width: #{$size}rem!important;
+    }
+}
+/*------------------------------------------------------------------
+[#. Width Media Queries]
+*/
+$allSizes: (0, 5, 10, 15, 20, 25, 50, 55, 60, 65, 75, 80, 85, 90, 95, 100, auto);
+
+@each $size in $allSizes {
+    .w-#{$size} {
+        width: #{$size} + "%"!important;
+    }
+    .h-#{$size} {
+        height: #{$size} + "%"!important;
+    }
+}
+@media only screen and (min-width: 576px) {
+    @each $size in $allSizes {
+        @if $size == 'auto' {
+            .w-md-auto {
+                width: auto!important;
+            }
+        }
+        @else {
+            .w-md-#{$size} {
+                width: #{$size} + "%"!important;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    @each $size in $allSizes {
+        @if $size == 'auto' {
+            .w-md-auto {
+                width: auto!important;
+            }
+        }
+        @else {
+            .w-md-#{$size} {
+                width: #{$size} + "%"!important;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 992px) {
+    @each $size in $allSizes {
+        @if $size == 'auto' {
+            .w-lg-auto {
+                width: auto!important;
+            }
+        }
+        @else {
+            .w-lg-#{$size} {
+                width: #{$size} + "%"!important;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.navbar-default {
+    background: transparent;
+    .navbar-brand {
+        .navbar-brand-logo {
+            width: 50%;
+        }
+    }
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: #677788;
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+                &:not(:last-of-type) {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
