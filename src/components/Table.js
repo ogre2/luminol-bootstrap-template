@@ -29,7 +29,7 @@ const Table = () => {
             Others
           </th>
           <th scope="col" className="table-text-center">
-            Omega
+            Luminol
           </th>
         </tr>
       </thead>
