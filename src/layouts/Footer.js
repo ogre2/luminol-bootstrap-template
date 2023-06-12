@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer-default bg-light">
       <div className="container">
-        <div className="row content-space-1">
+        <div className="row row-cols-sm-2 row-cols-md-5 d-flex flex-wrap">
           <div className="col-lg-3 mb-7 mb-lg-0">
             <div className="mb-5">
               <Link className="footer-brand" to="/">
@@ -31,7 +31,7 @@ const Footer = () => {
 
             {/* <LanguageToggler /> */}
           </div>
-          <div className="col-sm mb-7 mb-sm-0">
+          <div className="col mb-4 mb-md-0">
             <span className="fs=16 lh-19 fw-600">Resources</span>
 
             <ul className="list-unstyled list-py-1 mt-3 mb-0">
@@ -63,7 +63,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-sm mb-7 mb-sm-0">
+          <div className="col mb-4 mb-md-0">
             <span className="fs=16 lh-19 fw-600">Company</span>
 
             <ul className="list-unstyled list-py-1 mt-3 mb-0">
@@ -101,7 +101,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-sm mb-7 mb-sm-0">
+          <div className="col col-md-2 mb-4 mb-md-0">
             <span className="fs=16 lh-19 fw-600">Platform</span>
 
             <ul className="list-unstyled list-py-1 mt-3 mb-0">
@@ -133,7 +133,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-sm mb-7 mb-sm-0">
+          <div className="col col-md-2 mb-4 mb-md-0">
             <span className="fs=16 lh-19 fw-600">Legal</span>
 
             <ul className="list-unstyled list-py-1 my-3">
@@ -166,7 +166,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
         <div className="my-5 border-top"></div>
+
         <div className="row align-items-md-end">
           <div className="col-md mb-3 mb-md-0">
             <p className="text-gray-700 text-4 mb-0">
