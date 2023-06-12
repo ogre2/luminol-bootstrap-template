@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------
+[4.6. Table]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[#. Table Defaults]
+*/
 table {
     --bs-table-bg: transparent!important;
     border: none;
@@ -31,21 +37,20 @@ table {
         }
     }
 }
+/*------------------------------------------------------------------
+[#. Table Cell Alignment]
+*/
 .table-text-center {
     text-align: center;
 }
 .table-text-end {
     text-align: right;
 }
+/*------------------------------------------------------------------
+[#. Features Table]
+*/
 .features-table {
     .text-muted {
         color: #828282;
-    }
-}
-.col-sm-divider {
-    div {
-        &:not(:last-of-type) {
-            border-right: 1px solid #EDEDED;
-        }
     }
 }

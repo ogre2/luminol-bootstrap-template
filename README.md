@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Luminol Bootstrap Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./src/assets/img/logo.png" alt="Luminol" style="margin-bottom: 20px" />
 
-## Available Scripts
+![license](https://img.shields.io/github/license/ogre2/luminol-bootstrap-template?color=success)
+![version](https://img.shields.io/github/v/release/ogre2/luminol-bootstrap-template)
+![repo size](https://img.shields.io/github/repo-size/ogre2/luminol-bootstrap-template)
+![code size](https://img.shields.io/github/languages/code-size/ogre2/luminol-bootstrap-template)
+![contributors](https://img.shields.io/github/contributors/ogre2/luminol-bootstrap-template)
+![watchers](https://img.shields.io/github/watchers/ogre2/luminol-bootstrap-template?style=social)
+![stars](https://img.shields.io/github/stars/ogre2/luminol-bootstrap-template?style=social)
 
-In the project directory, you can run:
+Luminol is a responsive landing page template and theme for businesses and organization. The template is built on  
+HTML, CSS, JavaScript, React.js, Bootstrap, and Sass. It features a responsive design with a pleasant  
+mobile experience, with scroll to reveal animations, tooltips, and more.
 
-### `npm start`
+## Quick Start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can view and interact with Luminol on your browser by visiting [stephenwm.me/luminol-bootstrap-template].
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Documentation
 
-### `npm test`
+Supporting documentation for the template will be released soon.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+List of all of the major frameworks, packages, and dependencies that comprise Luminol.  
+This list will grow or shrink depending on the changes of the project and its needs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Webpack](https://webpack.js.org/) - Module bundler.
+* [PostCSS](https://postcss.org/) - Automate CSS routines.
+* [Sass](https://sass-lang.com/) - CSS Preprocessor.
+* [Bootstrap](https://getbootstrap.com/) - CSS Framework.
+* [jQuery](https://jquery.com/) - JavaScript library.
+* [Popper](https://popper.js.org/) - Tooltip and position engine.
+* [SwiperJS](https://swiperjs.com/) - Touch slider library.
+* [animate.style](https://animate.style/) - CSS Animations.
+* [AOS](https://michalsnik.github.io/aos/) - CSS Animations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To download/install Luminol, follow the following instructions for your OS.
 
-### `npm run eject`
+### 1) Using Git (Recommended)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Make sure you have Git installed on your machine which will allow you to clone or fork the repo on to your local  
+machine. Run the following command in your terminal/CLI to clone the repo. This will work for all operating  
+systems that can run Git.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```Git
+git clone https://github.com/ogre2/luminol-bootstrap-template.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2) Windows
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you're a Windows user, you can install the project using the [latest release version] and downloading the zipped  
+source code folder.
 
-## Learn More
+### 3) Linux and MacOS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you're a Linux or MacOS user, you can also install the project using the [latest release version] and downloading  
+the `<tar.gz>` folder. Then in your terminal run the following command to unzip and extract:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```tar
+tar -xzf tarfile
+```
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To contribute to `<luminol-bootstrap-template>`, follow these steps:
 
-### Analyzing the Bundle Size
+* Fork this repository.
+* Create a branch: git checkout -b <branch_name>.
+* Make your changes and commit them: `<git commit -m <commit_message>>`.
+* Push to the original branch: `<git push origin luminol-bootstrap-template main>`.
+* Create the pull request.
+  * View the GitHub documentation on [creating a pull request].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributors
 
-### Making a Progressive Web App
+Thanks to the following people who have contributed to building this application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* [ogre2](https://github.com/ogre2) 🐉
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Created and maintained by [Stephen Mwingira].
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To contact me with any questions regarding this project you can reach me at [swmwingira@gmail.com].
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* This project uses the following license: [Apache License v2.0]
+  * You can learn more about licenses here: [choosealicense.com]
+
+## Miscellaneous
+
+* Emojis used in the project markdown files are provided by [@rxaviers], you can [check them out here].
+* Badges and shields used in the project markdown files are generated by [img.shields.io].
+
+[stephenwm.me/luminol-bootstrap-template]: https://stephenwm.me/luminol-bootstrap-template/
+[latest release version]: https://github.com/ogre2/luminol-bootstrap-template/releases
+[Stephen Mwingira]: https://www.linkedin.com/in/stephen-mwingira-098819184/
+[swmwingira@gmail.com]: mailto:swmwingira@gmail.com
+[Apache License v2.0]: https://github.com/ogre2/luminol-bootstrap-template/blob/main/README.md
+[choosealicense.com]: https://choosealicense.com
+[@rxaviers]: https://github.com/rxaviers
+[check them out here]: https://gist.github.com/rxaviers/7360908
+[img.shields.io]: https://img.shields.io/

@@ -1,6 +1,13 @@
-.swiper {.swiper-slide {
-    padding: 50px 0;
-}
+/*------------------------------------------------------------------
+[4.7. Swiper]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[#. Swiper Defaults ]
+*/
+.swiper {
+    .swiper-slide {
+        padding: 50px 0;
+    }
     .swiper-pagination {
         .swiper-pagination-bullet {
             position: relative;

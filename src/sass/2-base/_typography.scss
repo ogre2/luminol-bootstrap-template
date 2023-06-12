@@ -128,7 +128,7 @@ p {
 }
 .blockquote {
     &.blockquote-lg {
-        font-size: 28px;
+        font-size: 22px;
         line-height: 42px;
         color: #1E2022;
     }
@@ -136,6 +136,13 @@ p {
 .blockquote-footer {
     &:before {
         display: none;
+    }
+}
+@media (min-width: 1200px) {
+    .blockquote {
+        &.blockquote-lg {
+            font-size: 1.75rem;
+        }
     }
 }
 /*------------------------------------------------------------------

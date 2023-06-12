@@ -111,12 +111,18 @@ ol {
         }
     }
 }
+/*------------------------------------------------------------------
+[#. Backgrounds]
+*/
 .bg-light {
     background-color: #F7FAFF!important;
 }
 .bg-secondary {
     background-color: $secondary!important;
 }
+/*------------------------------------------------------------------
+[#. Device Browser]
+*/
 .device-browser {
     position: relative;
     z-index: 1;
@@ -169,5 +175,15 @@ ol {
     }
     .device-browser-img {
         width: 100%;
+    }
+}
+/*------------------------------------------------------------------
+[#. Dividers]
+*/
+.col-sm-divider {
+    div {
+        &:not(:last-of-type) {
+            border-right: 1px solid #EDEDED;
+        }
     }
 }

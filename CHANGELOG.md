@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3] - 2023/06/11
+
+### Added
+
+- Project description and details inside the README.md file.
+- `<logo.png>` file in the `assets/img` subdirectory.
+
+### Fixed
+
+- Footer rendering on mobile.
+- Blockquote font sizing for mobile in the Testimonial component.
+- Comments in the `<styles.scss>` file.
+- Comments under all subdirectories and files in the `<sass>` folder.
+
+### Removed
+
+- React default instructions in the `<README.md>` file.
+- `<README.old.md>` file.
+
 ## [0.1.2] - 2023/06/10
 
 ### Fixed
@@ -42,7 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added components and container components.
 - Styled all components, type, and React app elements.
 
-[unreleased]: https://github.com/ogre2/luminol-bootstrap-template/compare/v0.1.2...HEAD
+[unreleased]: https://github.com/ogre2/luminol-bootstrap-template/compare/v0.1.3...HEAD
+[0.1.3]: https://github.com/ogre2/luminol-bootstrap-template/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/ogre2/luminol-bootstrap-template/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/ogre2/luminol-bootstrap-template/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/ogre2/luminol-bootstrap-template/releases/tag/v0.1.0
